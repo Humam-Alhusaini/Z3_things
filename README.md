@@ -7,9 +7,11 @@ Run the command below to try out the *_sat.smt2 files, a more principled proof s
 `z3 file.smt2 sat.euf=true tactic.default_tactic=smt solver.proof.log=proof`
 
 
-Adding this flag uses Z3's checker to check if the proof holds
+Adding this flag uses Z3's checker to check if the proof holds:
+
 `solver.proof.check=true`
 
 
 This disables RUP checking:
+
 `sat.smt.proof.check_rup=false`
