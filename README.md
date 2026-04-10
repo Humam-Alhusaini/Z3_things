@@ -15,3 +15,5 @@ Adding this flag uses Z3's checker to check if the proof holds:
 This disables RUP checking:
 
 `sat.smt.proof.check_rup=false`
+
+[Important link](https://microsoft.github.io/z3guide/programming/Proof%20Logs/)
